@@ -6,7 +6,7 @@ print "List of Security Groups: \n\n";
 # loop through file
 while(<>){
    # create an array, split file by new line character
-   @groups = split("/n");
+   @groups = split("\n");
 
    # loop through the array
    foreach $set(@groups){
